@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel = "stylesheet" type="text/css" href="css/estilos.css" media="screen">
+    <meta charset="UTF-8" lang="pt-br">
+	<title>Resgate</title>
+  </head>
+  <body>
+    <div id="container"><!--Div container, onde fica tudo -->
+      <div id="fundoGame"><!--Div onde fica o background do jogo-->
+        <div id="inicio" onclick="start()"><h1>Resgate</h1><!--Div de início-->
+		<p>Utilize a tecla W para movimentar o helicóptero para cima, aprete S para movimentar o helicóptero para baixo e aperte D para atirar</p>
+		<p>Está pronto? Clique aqui para iniciar!!</p>
+		</div><!--fim da div de início-->
+		<audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+	    <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+	    <audio src="sons/musica_fundo.mp3" preload="auto" id="musicaFundo"></audio>
+	    <audio src="sons/gameover.mp3" preload="auto" id="somGameOver"></audio>
+	    <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>
+	    <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+	  </div><!--fim da div de fundo, aqui os sons ficam pré carregados junto da página-->	
+	</div><!--fim da div de container-->
+	<!-- sons do jogo-->
+   </body>
+   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+   <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+   <script type="text/javascript" src="js/criadivs.js"></script>
+ </html>   
