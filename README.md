@@ -1,5 +1,7 @@
 # Resgate
 
+Trata-se de um jogo simples criado com um pouco de HTML5, CSS e Javascript
+
 Como o jogo funciona:
 
 Assim que o jogo iniciar após o clique do usuário, uma tela será carregada.
